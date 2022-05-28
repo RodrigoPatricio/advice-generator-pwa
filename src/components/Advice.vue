@@ -64,7 +64,7 @@ button {
   cursor: pointer;
 }
 #dice {
-  width: 100px;
+  width: 70px;
 }
 
 @media only screen and (max-width: 600px) {

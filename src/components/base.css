@@ -1,0 +1,30 @@
+:root {
+  --bs-neon-green: hsl(150, 100%, 66%);
+  --bs-light-cyan: hsl(193, 38%, 86%);
+  --bs-graish-blue: hsl(217, 19%, 38%);
+  --bs-dark-graish-blue: hsl(217, 19%, 24%);
+  --bs-dark-blue: hsl(218, 23%, 16%);
+}
+.neon {color: var(--bs-neon-green);}
+.cyan {color: var(--bs-light-cyan);}
+.gray-blue {color: var(--bs-graish-blue);}
+.blue {color: var(--bs-dark-graish-blue);}
+.dark-blue {color: var(--bs-dark-blue);}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  max-width: 1440px;
+  min-width: 375px;
+
+  background: var(--bs-dark-blue);
+  color: var(--bs-light-cyan);
+
+  font-family: manrope;
+}
+p {
+  font-size: 28px;
+}

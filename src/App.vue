@@ -1,26 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Advice
+    :advice-number="number"
+    :advice-text="advice"
+    @new-advice="getAdvice()"
+  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Advice from "@/components/Advice.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Advice,
+  },
+  data() {
+    return {
+      number: "000",
+      advice: "Click the dice below for advice.",
+    };
+  },
+  methods: {
+    async getAdvice() {
+      const res = await fetch("https://api.adviceslip.com/advice");
+      const results = await res.json();
+
+      this.number = results.slip.id;
+      this.advice = results.slip.advice;
+    },
+  },
+};
 </script>
 
 <style>
+@import "@/components/base.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  scroll-behavior: smooth;
 }
 </style>

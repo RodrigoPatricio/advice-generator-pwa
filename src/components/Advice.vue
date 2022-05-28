@@ -17,7 +17,7 @@
       />
       <div>
         <button @click="$emit('newAdvice')">
-          <img src="@/assets/icons/icon-dice.png" alt="" />
+          <img id="dice" src="@/assets/icons/icon-dice.png" alt="" />
         </button>
       </div>
     </div>
@@ -56,6 +56,8 @@ button {
   border-style: none;
   cursor: pointer;
 }
+#dice {width: 30px;}
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 70%;

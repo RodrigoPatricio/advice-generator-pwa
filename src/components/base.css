@@ -1,14 +1,14 @@
 :root {
-  --bs-neon-green: hsl(150, 100%, 66%);
   --bs-light-cyan: hsl(193, 38%, 86%);
   --bs-graish-blue: hsl(217, 19%, 38%);
   --bs-dark-graish-blue: hsl(217, 19%, 24%);
   --bs-dark-blue: hsl(218, 23%, 16%);
+
+  --bs-white: #ffffff;
+  --bs-light-blue: hsl(209, 70%, 79%);
+  --bs-dark-blue: hsl(208, 37%, 49%);
 }
-.neon {color: var(--bs-neon-green);}
-.cyan {color: var(--bs-light-cyan);}
-.gray-blue {color: var(--bs-graish-blue);}
-.blue {color: var(--bs-dark-graish-blue);}
+
 .dark-blue {color: var(--bs-dark-blue);}
 
 body {
@@ -21,7 +21,7 @@ body {
   min-width: 375px;
 
   background: var(--bs-dark-blue);
-  color: var(--bs-light-cyan);
+  color: var(--bs-white);
 
   font-family: manrope;
 }

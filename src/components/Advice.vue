@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="advice">
-      <p class="neon">ADVICE #{{ adviceNumber }}</p>
+      <p class="dark-blue">ADVICE #{{ adviceNumber }}</p>
     </div>
     <div class="txt">
       <p>{{ adviceText }}</p>
@@ -49,7 +49,7 @@ export default {
 
   padding: 40px;
   width: 450px;
-  background: var(--bs-dark-graish-blue);
+  background: var(--bs-light-blue);
   border-radius: 16px;
   text-align: center;
 }

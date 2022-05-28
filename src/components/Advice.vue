@@ -56,7 +56,7 @@ button {
   border-style: none;
   cursor: pointer;
 }
-#dice {width: 30px;}
+#dice {width: 50px;}
 
 @media only screen and (max-width: 600px) {
   .container {

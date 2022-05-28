@@ -39,9 +39,14 @@ export default {
   display: none;
 }
 .container {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
   padding: 40px;
   width: 450px;
-  margin: 150px auto 0 auto;
+  margin: auto;
   background: var(--bs-dark-graish-blue);
   border-radius: 16px;
   text-align: center;

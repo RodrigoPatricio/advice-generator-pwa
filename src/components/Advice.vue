@@ -39,6 +39,7 @@ export default {
   display: none;
 }
 .container {
+  /*Align Center Vertically AND Horizontally */
   margin: 0;
   position: absolute;
   top: 50%;

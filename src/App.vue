@@ -22,7 +22,6 @@ export default {
     async getAdvice() {
       const res = await fetch("https://api.adviceslip.com/advice");
       const results = await res.json();
-
       this.number = results.slip.id;
       this.advice = results.slip.advice;
     },

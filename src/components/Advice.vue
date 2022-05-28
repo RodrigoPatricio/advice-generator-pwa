@@ -46,7 +46,6 @@ export default {
 
   padding: 40px;
   width: 450px;
-  margin: auto;
   background: var(--bs-dark-graish-blue);
   border-radius: 16px;
   text-align: center;

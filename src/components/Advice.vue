@@ -39,10 +39,12 @@ export default {
   display: none;
 }
 .container {
+  margin: 0;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   padding: 40px;
   width: 450px;
@@ -60,7 +62,9 @@ button {
   border-style: none;
   cursor: pointer;
 }
-#dice {width: 50px;}
+#dice {
+  width: 50px;
+}
 
 @media only screen and (max-width: 600px) {
   .container {

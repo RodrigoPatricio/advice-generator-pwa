@@ -4,8 +4,6 @@
 
 > Simple project with external api to showcase Vue 3 PWA development.
 
-### 🏠 [Homepage](https://advice-generator-pwa.vercel.app/)
-
 ### ✨ [Demo](https://advice-generator-pwa.vercel.app/)
 
 ## Author

@@ -1,6 +1,6 @@
 # Welcome to Advice Generator 👋
 ![Version](https://img.shields.io/badge/version-v5.0-blue.svg?cacheSeconds=2592000)
-[![Twitter: rodrigo\_patt](https://img.shields.io/twitter/follow/rodrigoo\_patt.svg?style=social)](https://twitter.com/rodrigo\_patt)
+[![Twitter: rodrigo\_patt](https://img.shields.io/twitter/follow/rodrigoo\_patt.svg?style=social)](https://twitter.com/rodrigoo\_patt)
 
 > Simple project with external api to showcase Vue 3 PWA development.
 

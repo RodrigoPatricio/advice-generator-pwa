@@ -8,18 +8,6 @@
 
 ### ✨ [Demo](https://advice-generator-pwa.vercel.app/)
 
-## Install
-
-```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run serve
-```
-
 ## Author
 
 👤 **Rodrigo Patricio**
